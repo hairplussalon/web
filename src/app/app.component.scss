@@ -17,26 +17,35 @@ img {
 
 
 /* For Mobile */
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 360px) {
     .appointment-btn {
-        font-size: 16px;
-        padding: 10px 30px;
-        bottom: 40px;
+        font-size: 10px;
+        padding: 10px 15px;
+        bottom: 20px;
+    }
+}
+
+/* For Mobile */
+@media screen and (min-width: 361px) and (max-width: 425px) {
+    .appointment-btn {
+        font-size: 12px;
+        padding: 10px 20px;
+        bottom: 20px;
     }
 }
 
 /* For Tablets */
 @media screen and (min-width: 426px) and (max-width: 767px) {
     .appointment-btn {
-        font-size: 16px;
-        padding: 10px 30px;
-        bottom: 50px;
+        font-size: 14px;
+        padding: 10px 20px;
+        bottom: 30px;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1250px) {
     .appointment-btn {
-        font-size: 18px;
+        font-size: 16px;
         padding: 15px 40px;
         bottom: 70px;
     }
