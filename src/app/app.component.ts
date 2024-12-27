@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   standalone: true
 })
 export class AppComponent {
-  title = 'client';
+  title = 'web';
 }
